@@ -1,4 +1,5 @@
 import Point from './Point';
+import MyCanvas from './MyCanvas';
 
 class MyNode {
 

@@ -26,3 +26,5 @@ class Tree {
         this.origin.draw(this.canvas);
     }
 }
+
+export default Tree;

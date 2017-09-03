@@ -1,7 +1,7 @@
 class Tree {
 
     public origin: MyNode;
-      public config: any;
+    public config: any;
     public canvas: MyCanvas = new MyCanvas(500, 500);
 
     constructor(origin: MyNode, config?: any) {
@@ -36,7 +36,7 @@ class MyCanvas {
         this.initCanvas();
     }
 
-    initCanvas(height: number, width: number): void {
+    initCanvas(): void {
         let tmpCanvas = document.createElement("canvas");
         tmpCanvas.height = this.height;
         tmpCanvas.width = this.width;
