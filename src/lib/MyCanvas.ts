@@ -1,6 +1,6 @@
 import Point from './Point';
 
-class MyCanvas {
+export class MyCanvas {
     canvas: HTMLCanvasElement;
     ctx: CanvasRenderingContext2D;
 
@@ -9,6 +9,7 @@ class MyCanvas {
     }
 
     initCanvas(): void {
+        let document = new HTMLDocument();
         let tmpCanvas = document.createElement("canvas");
         tmpCanvas.height = 500;
         tmpCanvas.width = 500;

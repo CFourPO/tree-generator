@@ -47,17 +47,17 @@ export default Point;
 
 
 
-let origin = new MyNode(new Point(250, 250, {}), [], {});
-let tree = new Tree(origin, {});
+// let origin = new MyNode(new Point(250, 250, {}), [], {});
+// let tree = new Tree(origin, {});
 
-tree.grow(50);
-tree.grow(50);
-tree.grow(50);
-tree.grow(50);
-tree.grow(50);
-tree.grow(50);
+// tree.grow(50);
+// tree.grow(50);
+// tree.grow(50);
+// tree.grow(50);
+// tree.grow(50);
+// tree.grow(50);
 
 
-tree.getHtml();
+// tree.getHtml();
 
-tree.draw();
+// tree.draw();
