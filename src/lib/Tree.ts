@@ -1,14 +1,15 @@
-import MyNode from './Node';
+import MyNode from './MyNode';
 import MyCanvas from './MyCanvas';
+import Point from './Point';
 
 class Tree {
 
     origin: MyNode;
     config: any;
-    canvas: MyCanvas = new MyCanvas();
+    canvas: MyCanvas;
 
-    constructor(origin: MyNode, config?: any) {
-        this.origin = origin;
+    constructor(origin?: MyNode, config?: any) {
+        this.origin = origin || new MyNode(new Point(250, 0));
         this.config = config || null;
     }
 
@@ -23,6 +24,7 @@ class Tree {
     }
 
     draw(): void {
+        this.canvas = new MyCanvas();
         this.origin.draw(this.canvas);
     }
 }

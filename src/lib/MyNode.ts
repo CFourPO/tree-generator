@@ -46,7 +46,7 @@ class MyNode {
         return ul;
     }
 
-    draw(canvas: MyCanvas) {
+    draw(canvas?: MyCanvas) {
         if (this.nodes.length === 0) {
             return;
         }

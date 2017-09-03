@@ -1,0 +1,8 @@
+{
+  "name": "tree-generator",
+  "globalDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#e53e146af47a5301066c9066ed3560a21a7006a9",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#e53e146af47a5301066c9066ed3560a21a7006a9",
+    "sinon": "github:DefinitelyTyped/DefinitelyTyped/sinon/sinon.d.ts#cf7c97b2a68a385c98c75fb6edd81083c97c983c"
+  }
+}
