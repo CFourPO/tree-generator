@@ -1,5 +1,3 @@
-/// <reference path="../typings/index.d.ts" />
-
 import Point from './lib/Point';
 import MyNode from './lib/MyNode';
 import Tree from './lib/Tree';

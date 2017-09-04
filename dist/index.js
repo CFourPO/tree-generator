@@ -1,5 +1,4 @@
 "use strict";
-/// <reference path="../typings/index.d.ts" />
 exports.__esModule = true;
 var Tree_1 = require("./lib/Tree");
 // let origin = new MyNode(new Point(250, 250, {}), [], {});
